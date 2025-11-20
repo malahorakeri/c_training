@@ -1,0 +1,12 @@
+\\ write a function that return X,Y parameter
+#incidue<stdio.h>
+int sqr(int x,int y,);
+{
+    int prod=(x*x)+(y*y);
+    return prod;
+}
+void main()
+{
+    int x=7,y=8;
+    printf("%d\n",sqr (x,y));
+}
